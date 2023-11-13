@@ -31,3 +31,37 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.card {
+  background-color: white;
+}
+
+/* .card__header {
+  position: relative;
+  height: 200px;
+}
+
+.card__header .card__header-text-container {
+  margin-left: 26px;
+  background-color: #202020;
+  width: 57px;
+  height: 22px;
+}
+
+.card__header .card__header-text-container .card__species {
+  position: absolute;
+  z-index: 99;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.card__header .card__header-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+} */
