@@ -8,11 +8,17 @@ import icon_status from "../images/icon-status.svg";
 const Card = () => {
   return (
     <article className="card rounded-lg">
-      <div className="card__header">
-        <div className="card__header-text-container">
+      <div className="flex font-sans h-48">
+        <div className="card__header-text-container absolute p-2 rounded-lg mt-4 ml-4">
           <span className="card__species">Human</span>
         </div>
-        <Image src={morty} alt="morty" className="card__header-bg" />
+        <div className="flex-none w-full relative">
+          <Image
+            src={morty}
+            alt="morty"
+            className="card__header-bg absolute inset-0 w-full h-full object-cover rounded-lg"
+          />
+        </div>
       </div>
       <div className="card-info p-4">
         <h2>Morty Smith</h2>
